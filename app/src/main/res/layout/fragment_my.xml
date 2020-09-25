@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00">
+
+    <TextView
+        android:id="@+id/tv_myfragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text View inside of MyFragment"/>   <!--onclick은 메인에서만 사용가능-->
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change text"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="액티비티의 TextView 변경"
+        android:onClick="clickBtn2"/>
+
+</LinearLayout>
